@@ -14,10 +14,6 @@ spec:
     spec:
       containers:
       - name: dev-container
-<<<<<<< Updated upstream
-        image: <todo>
-=======
-        image: us-central1-docker.pkg.dev/qwiklabs-gcp-00-f93a15bdd369/my-repository/hello-cloudbuild-dev:v1.0
->>>>>>> Stashed changes
+        image: us-east1-docker.pkg.dev/qwiklabs-gcp-03-6dfe37774438/my-repository/sample-app:v1.0
         ports:
         - containerPort: 8080
